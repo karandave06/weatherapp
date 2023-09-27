@@ -45,7 +45,7 @@ const Weathercard = ({
     }
   }, [iconString]);
   return (
-    <div className="w-[22rem] min-w-[22rem] h-[30rem] glassCard p-4">
+    <div className="w-[22rem] min-w-[22rem] min-h-[30rem] glassCard p-4">
       <div className="w-full flex justify-center items-center gap-4 mt-12 mb-4">
         <img src={icon} alt="Weather_icon" />
         <p className="font-bold text-5xl flex justify-center items-center">
