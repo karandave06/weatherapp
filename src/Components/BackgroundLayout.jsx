@@ -42,7 +42,7 @@ const BackgroundLayout = () => {
     <img
       src={image}
       alt="Weather_Image"
-      className="custom-image w-screen h-full bg-cover  absolute left-0 top-0 blur-[1px] -z-[10]  object-cover"
+      className="custom-image w-screen h-screen bg-cover  absolute left-0 top-0 blur-[1px] -z-[10]  object-cover"
     />
 </div>
   );

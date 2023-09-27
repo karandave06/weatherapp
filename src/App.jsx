@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen px-8 text-white">
+      <div className="w-full h-screen pb-6  px-8 text-white overflow-scroll overflow-x-hidden">
         <nav className="w-full p-3 flex justify-between md:items-center flex-col md:gap-0 gap-4 md:flex-row">
           <h1 className="font-bold tracking-wide text-2xl">KD'S Weather App</h1>
 
@@ -50,7 +50,7 @@ function App() {
             conditions={weather.conditions}
           />
 
-          {/* <div
+          <div
    
             className="hidden  md:flex items-center justify-center gap-3 min-h-[20rem] md:flex-wrap    w-[100%]  md:w-[60%]"
           >
@@ -64,7 +64,7 @@ function App() {
                 />
               );
             })}
-          </div> */}
+          </div>
 
           {/* swiper starts */}
 
