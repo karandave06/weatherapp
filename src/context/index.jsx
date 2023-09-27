@@ -58,7 +58,7 @@ export const StateContextProvider = ({ children }) => {
     } catch (e) {
       console.error(e);
 
-      alert("This app is not exist");
+      alert("This city is not exist");
     }
   };
 
